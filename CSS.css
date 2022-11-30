@@ -18,7 +18,7 @@ html{
         0%{opacity: 0%;}
         100%{opacity: 100%;}
     }
-p.{
+p{
   animation-name:  fadeInLeft;
   animation-duration: 3s;
   /* animation-iteration-count: infinite; */
