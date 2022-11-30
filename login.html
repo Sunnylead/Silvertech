@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>bootstrap login</title>
+<style>
+    html{
+        /* height: 100%; */
+    }
+    body{
+        /* color:rgb(167, 111, 9); */
+        /* background:linear-gradient(rgba(255, 255, 255,0.5),rgba(223, 220, 220, 0.5),rgba(206, 197, 197, 0.5)); */
+        background: url(img/bge.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: black;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        animation: fadein 3s;
+    }
+    @keyframes fadein{
+        0%{opacity: 0%;}
+        100%{opacity: 100%;}
+    }
+    
+    div.p-5{
+        background: rgba(255, 255, 255, 0.8);
+        color: rgb(0, 0, 0);
+        margin-top: 4rem !important;
+       border-radius: 1rem;
+       /* box-shadow: 0 4px 10px 0 rgba(44, 44, 44, 0.8), 0 8px 20px 0 rgba(44, 44, 44, 0.8); */
+    }
+
+    a.sign-up{
+        color: rgb(0, 0, 0);
+    }
+    button.sub{
+        background:rgb(4, 68, 95);
+        color: white;
+        transition: 0.4s ease-in-out;
+    }
+    button.sub:hover{
+        background: orange !important;
+        color: white !important;
+        transition: 0.4s ease-in-out;
+    }
+</style>
+</head>
+<body>
+    <!-- <div class="ksp-logo"><img src="file:///C:/wamp/www/Projects%20File%201/images/ksplogo.png" alt="Ksp-logo" height="100"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+    <div class="login-box"> 
+        <div class="ksp-logo"><img src="img/sdg.png" alt="silver-logo" height="100"></div>  
+<h2 class="existing-user-login">existing user login</h2>
+
+<h3 class="marquee"><marquee>if you can picture it, we can capture it. speak to us today !!!!!  </marquee></h3>
+
+<form action="" method="post">
+
+    <div class="login-input">
+         <label for="usename">&nbsp;&nbsp;<i class="fa-solid fa-user"></i>&nbsp; username/G-mail</label> <br>
+<input type="username/gmail" name="usename" required>
+    </div>
+    <div class="login-input">
+        <label>&nbsp;&nbsp;<i class="fa-solid fa-lock"></i>&nbsp; Password</label> <br>
+<input type="password" name="usename" required>
+    </div>
+    <div class="remember">
+        <input type="checkbox" checked value="Remember me"><label>remember me</label> 
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label><a href="#" class="linkk">forgot-password</a></label>
+        
+        <div id="submit">
+            <input type="submit" class="login" value="Login">
+        </div>
+        <label>Don't have an account yet ? <a href="signup-page.html" class="linkk">sign-Up</a></label>
+    </div>                      
+</form>    
+    </div></div></div></div>  -->
+    
+    
+
+
+
+
+
+<div class="container mt-3">
+    <div class="row">
+        <div class="col-md-4 offset-md-4 p-5 shadow"> <!--to center a form use col num den divide the remainder in offset-md--->
+  <h2 class="text-center">Silver Digi Tech <br>
+    <img src="img/sdg.png" alt="" class="img" height="110px">
+  </h2>
+  
+  <form action="/action_page.php">
+    <div class="mb-3 mt-3">
+      <label for="email">Email:</label>
+<input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required>
+    </div>
+    <div class="mb-3">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
+</div>
+    <div class="form-check mb-3">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember"> Remember me
+         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+         <span><a href="#" class="sign-up">Sign-Up</a> </span>
+      </label>
+    </div>
+    <button type="submit" class="btn sub">Submit</button>
+  </form>
+</div></div></div>
+</body>
+</html>
+
+
