@@ -1,0 +1,90 @@
+
+
+html{
+    height: 100%;
+}
+
+  body{
+    background:white;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+      animation: fadein 3s;
+    }
+  
+ 
+    @keyframes fadein{
+        0%{opacity: 0%;}
+        100%{opacity: 100%;}
+    }
+p.mustp{
+  animation-name:  fadeInLeft;
+  animation-duration: 3s;
+  /* animation-iteration-count: infinite; */
+}
+.card{
+  animation-name:  rotateOutUpLeft;
+  animation-duration: 3s;
+  
+}
+
+
+/* div.about{
+  position:fixed;
+  z-index: -1;
+} */
+
+
+ 
+
+ .ab{
+  padding: 1rem;
+  background:teal;
+  border: 0.5rem solid orange;
+  color: white;
+} 
+
+
+
+  .fakeimg {
+    height: 250px;
+    background: rgb(247, 244, 244);
+    
+  }
+
+  /* .sticky{
+    position:sticky;
+    top: 0;
+    width: 100%;
+  } */
+  
+  #goat{
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 5;
+    width: 100%;
+  } 
+
+  nav.navbar {  
+    top: 0px;
+    font-size: 1.1rem;
+    background-color:rgb(4, 99, 139);
+  }
+
+
+
+
+  a.dropdown-item:hover{
+   background-color:rgb(4, 99, 139)!important;
+   color:white!important;
+  }
+
+div.offcanvas-body,
+div.offcanvas-header{
+  background-color:rgb(4, 99, 139)!important;
+  color:white!important;
+}
+
+
+
